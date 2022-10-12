@@ -1,0 +1,64 @@
+body {
+    background-color: #F5FFFA;
+    /*background: linear-gradient(68.15deg, hsl(298, 57%, 21%) 16.62%, #cc75dd 85.61%);*/
+}
+
+@font-face {
+    font-family: 'Calibri';
+    src: url('fonts/Calibri.eot');
+    src: url('fonts/Calibri.eot?#iefix') format('embedded-opentype'),
+        url('fonts/Calibri.woff') format('woff'),
+        url('fonts/Calibri.ttf') format('truetype'),
+        url('fonts/Calibri.svg#Calibri') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+.container {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+}
+
+.foto {
+    border-radius: 100%;
+    display: inline-block;
+}
+
+.foto img {
+    border-radius: 100%;
+    width: 100px;
+    height: 100px;
+    overflow: hidden;
+    position: relative;
+    margin-top: 10px;
+    margin-right: 40px;
+    margin-bottom: 10px;
+}
+
+.video {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.texto {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.final {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+textarea {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    resize: none;
+    overflow: auto;
+    border-radius: 4px;
+    padding: 20px 5px;
+}
